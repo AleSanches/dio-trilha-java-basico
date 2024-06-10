@@ -34,10 +34,9 @@ public class Conta {
     }
 
     public void retornoDados() {
-        System.out.println("Olá " + getNomeCliente() + "!");
-        System.out.println("Conta: " + getNumeroConta());
-        System.out.println("Agência: " + getAgencia());
-        System.out.println("Saldo: " + getSaldo());
+        System.out.println("Olá " + getNomeCliente() + ", obrigado por criar uma conta em nosso banco. Sua agência é "
+                + getAgencia() + ", conta " + getNumeroConta() + " e seu saldo " + getSaldo() + " já está disponível");
+
     }
 
     public String getNomeCliente() {
